@@ -11,7 +11,7 @@ while Found == True:
             break
 list.append(n)
 
-a = int(input("Enter a Number"))
+a = int(input("Enter Another Number"))
 list2 = []
 Found = True
 while Found == True:
@@ -53,9 +53,6 @@ while (index1 < len(list)):
 while (index2 < len(list2)):
     lcmlist.append(list2[index2])
     index2 = index2+1
-
-print("the GCF list is", gcflist)
-print("The LCM ist is", lcmlist)
 
 lcm = 1
 for i in lcmlist:
